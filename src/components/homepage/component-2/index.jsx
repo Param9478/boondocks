@@ -1,10 +1,10 @@
 const Menu = () => {
   const menuItems = [
     {
-      name: 'Creamy Vegetarian Spaghetti',
-      price: '$18',
+      name: 'Italian Loaf',
+      price: '$10',
       description:
-        'Sauteed mushrooms, red onions, green peppers and red peppers in an alfredo marinara sauce laid over a bed of spaghetti. Add chicken or Italian sausage for $3.00',
+        'Ham, pepperoni, onions, and mozzarella cheese baked on a 10-inch loaf.',
     },
     {
       name: 'Potato Skins',
