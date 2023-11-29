@@ -16,10 +16,10 @@ const Header = () => {
         />
         {/* Text Content */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium w-full">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium w-full">
             Welcome to the Boondocks Grill
           </h1>
-          <p className="w-full sm:w-3/4 pt-6 m-auto text-base sm:text-lg">
+          <p className="w-full sm:w-3/4 pt-6 m-auto text-base sm:text-md font-light">
             Join us for a warm and inviting dining experience, where the food
             and memories are always exceptional.
           </p>

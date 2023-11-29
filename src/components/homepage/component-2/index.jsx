@@ -1,59 +1,59 @@
 const Menu = () => {
   const menuItems = [
     {
-      name: 'Chicken Fried Steak',
-      price: '$14.99',
+      name: 'Creamy Vegetarian Spaghetti',
+      price: '$18',
       description:
-        'A Southern classic, hand-breaded and fried to golden perfection. Served with mashed potatoes, gravy, and steamed vegetables.',
+        'Sauteed mushrooms, red onions, green peppers and red peppers in an alfredo marinara sauce laid over a bed of spaghetti. Add chicken or Italian sausage for $3.00',
     },
     {
-      name: 'Barbecue Ribs',
-      price: '$17.99',
+      name: 'Potato Skins',
+      price: '$14',
       description:
-        'Tender ribs slow-cooked to perfection, basted in our signature sauce. Served with crispy fries and coleslaw.',
+        'You get an abundance of these tasty treats, topped with sour cream, baked cheese and bacon bits.',
     },
     {
-      name: 'Grilled Salmon',
-      price: '$16.99',
+      name: 'Deep Fried Pickles',
+      price: '$12',
       description:
-        'Fresh salmon fillet grilled to perfection. Served with white rice and a fresh salad.',
+        'Caution: Highly Addictive. Pickle skewers breaded and seasoned, then deep fried. Served with our dill sauce.',
     },
     {
-      name: 'Grilled Salmon',
-      price: '$16.99',
+      name: 'Donair Calzone',
+      price: '$12',
       description:
-        'Fresh salmon fillet grilled to perfection. Served with white rice and a fresh salad.',
+        'Beef donair, caesar sauce, onions, tomatoes & mozza-cheddar. Served with a side of sweet sauce.',
     },
     {
-      name: 'Grilled Salmon',
-      price: '$16.99',
+      name: 'Bacon Mozza Cheddar Burger',
+      price: '$9',
       description:
-        'Fresh salmon fillet grilled to perfection. Served with white rice and a fresh salad.',
+        'A thick and juicy beef patty topped with Mozza and Cheddar cheese, Bacon, Lettuce and Tomato with our homemade white sauce.',
     },
     {
-      name: 'Grilled Salmon',
-      price: '$16.99',
+      name: 'Beef Donair',
+      price: '$10',
       description:
-        'Fresh salmon fillet grilled to perfection. Served with white rice and a fresh salad.',
+        'Donair meat, tomatoes, onions and lettuce served with Caesar, dill or east coast sweet sauce.',
     },
     {
-      name: 'Grilled Salmon',
-      price: '$16.99',
+      name: 'Buffalo Chicken Sandwich',
+      price: '$12',
       description:
-        'Fresh salmon fillet grilled to perfection. Served with white rice and a fresh salad.',
+        'Seasoned chicken breast tossed in hot sauce and baked with cheese on a garlic loaf.',
     },
     {
-      name: 'Grilled Salmon',
-      price: '$16.99',
+      name: 'Steak or Chicken Fajita',
+      price: '$12',
       description:
-        'Fresh salmon fillet grilled to perfection. Served with white rice and a fresh salad.',
+        'A flour tortilla stuffed with grilled Beef or Chicken breast, sautéed Onions, Peppers, Salsa and served with sour cream.',
     },
     // Add more menu items as needed
   ]
 
   return (
     <div className="opacity-90 bg-black text-white p-8 md:p-16">
-      <div className="mx-auto max-w-5xl">
+      <div className="mx-auto max-w-6xl">
         <h1 className="text-3xl text-center mb-8 sm:mb-0">OUR MENU</h1>
 
         <div className="p-8 text-center relative hidden sm:block">
@@ -72,10 +72,15 @@ const Menu = () => {
             </div>
           ))}
         </div>
-
-        <button className="block text-md border border-white p-2 mx-auto mt-4 hover:bg-white hover:text-black">
-          VIEW ALL MENU
-        </button>
+        <a
+          href="https://boondocks2.popmenu.com/#menu?location=boondocks"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <button className="block text-md border border-white p-2 mx-auto mt-4 hover:bg-white hover:text-black">
+            VIEW ALL MENU
+          </button>
+        </a>
       </div>
     </div>
   )
