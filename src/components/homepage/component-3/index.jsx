@@ -35,7 +35,7 @@ const Component3 = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100 py-10">
+      <div className="bg-gray-100 py-10 lg:block hidden">
         <div className="flex flex-col lg:flex-row lg:space-x-8 lg:w-3/4 sm:w-2/4 mx-auto py-10 p-2">
           <ImageRow
             imgSrc="https://images.unsplash.com/photo-1510693206972-df098062cb71?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

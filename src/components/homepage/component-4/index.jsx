@@ -5,8 +5,8 @@ export default function Component4() {
     <div className="mx-auto max-w-7xl px-2 pt-12 sm:pt-24 flex lg:flex-row flex-col">
       {/* Text Section */}
       {/* <div className="flex-1 pr-8 text-center"> */}
-      <div className="flex-1 text-center lg:text-left lg:w-1/4 w-3/4 m-auto">
-        <div className="lg:w-3/4 w-3/4 m-auto">
+      <div className="flex-1 text-center lg:text-left lg:w-1/4 md:w-3/4 m-auto">
+        <div className="lg:w-3/4 w-full m-auto">
           <h1 className="text-3xl mb-3">Meet our team</h1>
           <p className="font-light text-gray-700 text-xs">
             Step into The Boondocks Grill, and you’ll be transported to a cozy,
