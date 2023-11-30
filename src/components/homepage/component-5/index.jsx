@@ -9,7 +9,7 @@ const Component5 = () => {
         'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=3571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       review:
         "The Boondocks Grill is the perfect spot for a family dinner. The atmosphere is cozy and welcoming, and the menu has something for everyone to enjoy. The staff was attentive and made sure we had everything we needed. We'll definitely be back!'",
-      name: 'Emily',
+      name: 'Jennifer',
     },
     {
       imgSrc:
@@ -29,7 +29,7 @@ const Component5 = () => {
 
   return (
     <div>
-      <div className="relative">
+      <div className="relative mt-8">
         <img
           src="https://images.unsplash.com/photo-1488992783499-418eb1f62d08?q=80&w=3689&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Header Background"
@@ -39,14 +39,14 @@ const Component5 = () => {
         {/* Text Content */}
         <div className="absolute text-center sm:text-left top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white z-20">
           <div className="sm:m-0 m-auto">
-            <h1 className="lg:text-3xl text-2xl w-full">
+            <h1 className="lg:text-3xl text-2xl w-full lg:mt-8 mt-12">
               What They Say
             </h1>
           </div>
         </div>
       </div>
       {/* Review Cards */}
-      <div className="flex flex-col sm:flex-row justify-center -mt-24 space-x-8 max-w-6xl m-auto">
+      <div className="flex flex-col lg:flex-row justify-center -mt-24 lg:space-x-8 max-w-6xl m-auto">
         {reviewerImages.map((data, index) => (
           <ReviewCard key={index} reviewerData={data} />
         ))}

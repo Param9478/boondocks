@@ -3,16 +3,19 @@ import BoondocksCard from './boondocksCard'
 export default function Component1() {
   return (
     <>
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pt-12 sm:pt-24 flex lg:flex-row flex-col">
+      <div className="mx-auto max-w-7xl px-2 pt-12 sm:pt-24 flex lg:flex-row flex-col">
         {/* Text Section */}
-        <div className="flex-1 pr-8 text-center">
-          <h1 className="text-3xl mb-4">Exceptional Dining Experience</h1>
-          <div className="mt-8 sm:mt-16">
-            <BoondocksCard
-              imgSrc="https://images.unsplash.com/photo-1499186024912-c374ac2e9cb2?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              title="Family-friendly Atmosphere"
-              context="The Boondocks Grill prides itself on its warm and welcoming atmosphere, making it the perfect place for families to come together and enjoy a meal. Whether you’re celebrating a special occasion or simply seeking a night out, the restaurant’s cozy ambiance and friendly staff guarantee a memorable experience for all. Children are always welcome and the menu includes options for all ages to enjoy."
-            />
+
+        <div className="flex-1 text-center lg:text-left lg:w-1/4 w-full">
+          <div className="lg:w-3/4 m-auto">
+            <h1 className="text-3xl mb-4">Exceptional Dining Experience</h1>
+            <div className="mt-8 sm:mt-16">
+              <BoondocksCard
+                imgSrc="https://images.unsplash.com/photo-1499186024912-c374ac2e9cb2?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                title="Family-friendly Atmosphere"
+                context="The Boondocks Grill prides itself on its warm and welcoming atmosphere, making it the perfect place for families to come together and enjoy a meal. Whether you’re celebrating a special occasion or simply seeking a night out, the restaurant’s cozy ambiance and friendly staff guarantee a memorable experience for all. Children are always welcome and the menu includes options for all ages to enjoy."
+              />
+            </div>
           </div>
         </div>
 

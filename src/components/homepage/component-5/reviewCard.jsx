@@ -3,7 +3,7 @@ import React from 'react'
 
 const ReviewCard = ({ reviewerData }) => {
   return (
-    <div className="bg-black max-w-md w-3/4 mx-auto p-8 font-light rounded-2xl shadow-md mt-8 relative z-10 text-center">
+    <div className="bg-black max-w-md w-3/4 mx-auto p-8 font-light rounded-2xl shadow-md mt-10 relative z-10 text-center">
       <img
         src={reviewerData.imgSrc}
         alt="Reviewer"

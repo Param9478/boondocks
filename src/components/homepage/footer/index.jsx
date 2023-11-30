@@ -10,9 +10,9 @@ import { faClock } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
   return (
     <footer className="bg-black opacity-90 mt-24 text-white py-8 lg:text-left text-center">
-      <div className="container flex flex-wrap ">
+      <div className="container flex flex-wrap m-auto">
         {/* Company Name and Social Media Handlers */}
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 -mt-0 m-auto flex flex-col items-center">
+        <div className="w-full lg:w-1/4 -mt-0 m-auto flex flex-col items-center">
           <h3 className="text-lg font-medium mb-2">THE BOONDOCKS GRILL</h3>
           <div className="flex space-x-6 ">
             <FontAwesomeIcon icon={faFacebook} />
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
 
         {/* Location */}
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 lg:mt-0 mt-6">
+        <div className="w-full lg:w-1/4 lg:mt-0 mt-6">
           <h3 className="text-lg font-medium mb-2">Our Location</h3>
           <p className="font-light text-sm">
             5023 53 Ave, <br />
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         {/* Opening Hours */}
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 lg:mt-0 mt-6">
+        <div className="w-full lg:w-1/4 lg:mt-0 mt-6">
           <h3 className="text-xl font-medium mb-2">Opening Hours</h3>
           <div className="lg:flex space-x-2">
             <FontAwesomeIcon icon={faClock} className="mt-1" />
