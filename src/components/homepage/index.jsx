@@ -4,7 +4,7 @@ import Menu from './component-2'
 import Component3 from './component-3'
 import Component4 from './component-4'
 import Component5 from './component-5'
-import homePageImage from '../../assets/homePageHeader.jpg'
+import homePageImage from '../../assets/homePageHeader.webp'
 
 export default function Homepage() {
   return (
