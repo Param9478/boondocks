@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '../../../assets/logo.png'
 
 const navigation = [
   { name: 'Home', path: '/' },
@@ -36,11 +37,7 @@ const Navbar = () => {
                 </Disclosure.Button>
               </div>
               <Link to="/" className="flex flex-shrink-0 items-center">
-                <img
-                  alt="boondocks"
-                  className="h-14"
-                  src="https://popmenucloud.com/cdn-cgi/image/width=300,height=300,format=auto,fit=scale-down/thkqwlos/4ce608ec-da8e-4d45-876b-f429f0b380c3.png"
-                />
+                <img alt="boondocks" className="h-10" src={logo} />
                 <h5 className="hidden sm:block text-white ml-2">
                   THE BOONDOCKS GRILL
                 </h5>
