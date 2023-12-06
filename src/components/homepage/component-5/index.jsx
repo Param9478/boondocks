@@ -1,10 +1,10 @@
 // Component5.js
 import React from 'react'
 import ReviewCard from './reviewCard'
-import reviewer1 from '../../../assets/reviewer1.avif'
-import reviewer2 from '../../../assets/reviewer2.avif'
-import reviewer3 from '../../../assets/reviewer3.avif'
-import whatTheySay from '../../../assets/whatTheySay.avif'
+import reviewer1 from '../../../assets/reviewer1.webp'
+import reviewer2 from '../../../assets/reviewer2.webp'
+import reviewer3 from '../../../assets/reviewer3.webp'
+import whatTheySay from '../../../assets/whatTheySay.webp'
 
 const Component5 = () => {
   const reviewerImages = [
@@ -34,6 +34,7 @@ const Component5 = () => {
         <img
           src={whatTheySay}
           alt="Header Background"
+          loading='eager'
           className="object-cover h-80 w-full brightness-50"
         />
         {/* Text Content */}

@@ -39,7 +39,7 @@ export default function OurStory() {
             atmosphere that our guests will remember for years to come.
           </p>
           <div className="mt-8 sm:mt-16">
-            <img src={ourStory} alt="" className="w-full" />
+            <img src={ourStory} loading="lazy" alt="" className="w-full" />
           </div>
         </div>
       </div>

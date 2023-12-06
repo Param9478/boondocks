@@ -5,6 +5,7 @@ export default function ChefCard({ imgSrc }) {
       <img
         className="h-96 w-full object-cover"
         src={imgSrc}
+        loading="eager"
         alt="Chef's Portrait"
       />
     </div>

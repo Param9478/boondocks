@@ -1,7 +1,7 @@
 import BoondocksCard from './boondocksCard'
-import dining1 from '../../../assets/dining1.avif'
-import dining2 from '../../../assets/dining2.avif'
-import dining3 from '../../../assets/dining3.avif'
+import dining1 from '../../../assets/dining1.webp'
+import dining2 from '../../../assets/dining2.webp'
+import dining3 from '../../../assets/dining3.webp'
 
 export default function Component1() {
   return (

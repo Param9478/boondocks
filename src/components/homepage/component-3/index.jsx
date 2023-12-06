@@ -1,10 +1,10 @@
 import React from 'react'
 import ImageRow from './imageRow'
 import { Link } from 'react-router-dom'
-import culinaryDelights from '../../../assets/culinaryDelights.avif'
-import food1 from '../../../assets/food1.avif'
-import food2 from '../../../assets/food2.avif'
-import food3 from '../../../assets/food3.avif'
+import culinaryDelights from '../../../assets/culinaryDelights.webp'
+import food1 from '../../../assets/food1.webp'
+import food2 from '../../../assets/food2.webp'
+import food3 from '../../../assets/food3.webp'
 
 const Component3 = () => {
   return (
@@ -13,6 +13,7 @@ const Component3 = () => {
         <img
           src={culinaryDelights}
           alt="Header Background"
+          loading="eager"
           className="object-cover h-80 w-full brightness-50"
           style={{ objectPosition: 'center 50%' }}
         />

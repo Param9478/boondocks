@@ -1,7 +1,7 @@
 import Header from '../header'
 import GoogleMap from './locationMap'
 import ReservationSection from './reservationSection'
-import contactUs from '../../assets/contactUs.avif'
+import contactUs from '../../assets/contactUs.webp'
 
 export default function Contact() {
   return (

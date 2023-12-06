@@ -1,6 +1,6 @@
-import Chef1 from '../../assets/chef1.avif'
-import Chef2 from '../../assets/chef2.avif'
-import Chef3 from '../../assets/chef3.avif'
+import Chef1 from '../../assets/chef1.webp'
+import Chef2 from '../../assets/chef2.webp'
+import Chef3 from '../../assets/chef3.webp'
 
 export default function TeamPicture() {
   const chefData = [
@@ -27,6 +27,7 @@ export default function TeamPicture() {
               <img
                 src={chef.imgSrc}
                 alt={`chef${index + 1}`}
+                loading="lazy"
                 className="w-full h-auto object-cover mt-8"
               />
               <p className="mt-2 sm:text-sm lg:text-xl">{chef.name}</p>

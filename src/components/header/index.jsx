@@ -13,6 +13,7 @@ const Header = ({ title, content, imgSrc, fullWidth }) => {
         <img
           src={imgSrc}
           alt="Header Background"
+          loading="eager"
           className="object-cover h-96 w-full brightness-50"
           style={{ objectPosition: 'center 20%' }}
         />

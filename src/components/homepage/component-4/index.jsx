@@ -1,7 +1,7 @@
 import ChefCard from './chefCard'
-import chef1 from '../../../assets/chef1.avif'
-import chef2 from '../../../assets/chef2.avif'
-import chef3 from '../../../assets/chef3.avif'
+import chef1 from '../../../assets/chef1.webp'
+import chef2 from '../../../assets/chef2.webp'
+import chef3 from '../../../assets/chef3.webp'
 
 export default function Component4() {
   return (

@@ -5,6 +5,7 @@ const ImageRow = ({ imgSrc, alt }) => {
     <img
       src={imgSrc}
       alt={alt}
+      loading="eager"
       className="w-full m-auto h-80 object-cover mt-5 lg:mt-0 rounded-xl"
     />
   )

@@ -9,6 +9,7 @@ const BoondocksCard = (props) => {
         className="h-48 md:h-64 w-full object-cover"
         style={{ objectPosition: 'center 60%' }}
         src={imgSrc}
+        loading="eager"
         alt="The Boondocks Grill"
       />
 
