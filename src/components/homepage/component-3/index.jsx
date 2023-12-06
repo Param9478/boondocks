@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageRow from './imageRow'
+import { Link } from 'react-router-dom'
 
 const Component3 = () => {
   return (
@@ -28,11 +29,15 @@ const Component3 = () => {
             </p>
           </div>
 
-          <div className="lg:my-auto mt-5">
+          <Link
+            to="https://boondocks2.popmenu.com/#menu?location=boondocks"
+            className="lg:my-auto mt-5"
+            target="_blank"
+          >
             <button className="sm:text-sm text-xs border border-white p-2 m-auto block hover:bg-white hover:text-black">
               VIEW ALL MENU
             </button>
-          </div>
+          </Link>
         </div>
       </div>
       <div className="bg-gray-100 py-10 lg:block hidden">

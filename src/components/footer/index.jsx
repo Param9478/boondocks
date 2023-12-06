@@ -1,15 +1,15 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTwitter,
   faFacebook,
   faInstagram,
-} from '@fortawesome/free-brands-svg-icons'
-import { faClock } from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-brands-svg-icons';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="bg-black opacity-90 mt-24 text-white py-8 lg:text-left text-center">
+    <footer className="bg-black opacity-90 text-white py-8 lg:py-16 lg:text-left text-center  bottom-0 w-full">
       <div className="container flex flex-wrap m-auto">
         {/* Company Name and Social Media Handlers */}
         <div className="w-full lg:w-1/4 -mt-0 m-auto flex flex-col items-center">
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

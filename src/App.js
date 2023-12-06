@@ -1,22 +1,21 @@
-import './App.css'
-import Component4 from './components/homepage/component-4'
-import Component1 from './components/homepage/component-1'
-import Menu from './components/homepage/component-2'
-import Component3 from './components/homepage/component-3'
-// import Component2 from './components/homepage/component-2'
-import Header from './components/homepage/header'
-import Component5 from './components/homepage/component-5'
-import Footer from './components/homepage/footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Footer from './components/footer'
+import Homepage from './components/homepage'
+import AboutUs from './components/about-us'
+import Contact from './components/contact-us'
+import OtherWebsite from './components/otherWebsite'
 
 function App() {
   return (
     <>
-      <Header />
-      <Component1 />
-      <Menu />
-      <Component3 />
-      <Component4 />
-      <Component5 />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="menu" element={<OtherWebsite />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
       <Footer />
     </>
   )

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Menu = () => {
   const menuItems = [
     {
@@ -72,15 +74,15 @@ const Menu = () => {
             </div>
           ))}
         </div>
-        <a
-          href="https://boondocks2.popmenu.com/#menu?location=boondocks"
+        <Link
+          to="https://boondocks2.popmenu.com/#menu?location=boondocks"
           rel="noreferrer"
           target="_blank"
         >
           <button className="block text-md border border-white p-2 mx-auto mt-4 hover:bg-white hover:text-black">
             VIEW ALL MENU
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   )
