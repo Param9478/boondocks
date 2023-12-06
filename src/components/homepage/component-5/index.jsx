@@ -1,26 +1,27 @@
 // Component5.js
 import React from 'react'
 import ReviewCard from './reviewCard'
+import reviewer1 from '../../../assets/reviewer1.avif'
+import reviewer2 from '../../../assets/reviewer2.avif'
+import reviewer3 from '../../../assets/reviewer3.avif'
+import whatTheySay from '../../../assets/whatTheySay.avif'
 
 const Component5 = () => {
   const reviewerImages = [
     {
-      imgSrc:
-        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=3571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imgSrc: reviewer1,
       review:
         "The Boondocks Grill is the perfect spot for a family dinner. The atmosphere is cozy and welcoming, and the menu has something for everyone to enjoy. The staff was attentive and made sure we had everything we needed. We'll definitely be back!'",
       name: 'Jennifer',
     },
     {
-      imgSrc:
-        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3569&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imgSrc: reviewer2,
       review:
         "I had a fantastic experience at The Boondocks Grill. The food was delicious, and the service was top-notch. The inviting atmosphere made me feel right at home, and I can't wait to come back.",
       name: 'James',
     },
     {
-      imgSrc:
-        'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imgSrc: reviewer3,
       review:
         'The Boondocks Grill exceeded my expectations. The menu had a great variety of dishes, and everything we ordered was cooked to perfection. The staff was friendly and welcoming, and the cozy atmosphere made for a memorable dining experience.',
       name: 'Brian',
@@ -31,7 +32,7 @@ const Component5 = () => {
     <div>
       <div className="relative mt-8">
         <img
-          src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src={whatTheySay}
           alt="Header Background"
           className="object-cover h-80 w-full brightness-50"
         />

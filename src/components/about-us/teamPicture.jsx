@@ -1,19 +1,20 @@
+import Chef1 from '../../assets/chef1.avif'
+import Chef2 from '../../assets/chef2.avif'
+import Chef3 from '../../assets/chef3.avif'
+
 export default function TeamPicture() {
   const chefData = [
     {
       name: 'John Doe',
-      imgSrc:
-        'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=3417&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imgSrc: Chef1,
     },
     {
       name: 'Jane Smith',
-      imgSrc:
-        'https://images.unsplash.com/photo-1654922207993-2952fec328ae?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imgSrc: Chef2,
     },
     {
       name: 'Mike Johnson',
-      imgSrc:
-        'https://images.unsplash.com/photo-1695606452743-e4b6872df715?q=80&w=2785&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imgSrc: Chef3,
     },
   ]
 

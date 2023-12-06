@@ -1,4 +1,5 @@
 import AboutOptions from './aboutOptions'
+import ourStory from '../../assets/ourStory.webp'
 
 export default function OurStory() {
   return (
@@ -38,11 +39,7 @@ export default function OurStory() {
             atmosphere that our guests will remember for years to come.
           </p>
           <div className="mt-8 sm:mt-16">
-            <img
-              src="https://10web-site.ai/89/wp-content/uploads/sites/101/2023/06/inside-restaurant-topview-1_E8ZPZLve.webp"
-              alt=""
-              className="w-full"
-            />
+            <img src={ourStory} alt="" className="w-full" />
           </div>
         </div>
       </div>

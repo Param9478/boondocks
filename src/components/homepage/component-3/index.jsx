@@ -1,13 +1,17 @@
 import React from 'react'
 import ImageRow from './imageRow'
 import { Link } from 'react-router-dom'
+import culinaryDelights from '../../../assets/culinaryDelights.avif'
+import food1 from '../../../assets/food1.avif'
+import food2 from '../../../assets/food2.avif'
+import food3 from '../../../assets/food3.avif'
 
 const Component3 = () => {
   return (
     <div>
       <div className="relative">
         <img
-          src="https://images.unsplash.com/photo-1488992783499-418eb1f62d08?q=80&w=3689&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src={culinaryDelights}
           alt="Header Background"
           className="object-cover h-80 w-full brightness-50"
           style={{ objectPosition: 'center 50%' }}
@@ -42,18 +46,9 @@ const Component3 = () => {
       </div>
       <div className="bg-gray-100 py-10 lg:block hidden">
         <div className="flex flex-col lg:flex-row lg:space-x-8 lg:w-3/4 sm:w-2/4 mx-auto py-10 p-2">
-          <ImageRow
-            imgSrc="https://images.unsplash.com/photo-1510693206972-df098062cb71?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="lasagna"
-          />
-          <ImageRow
-            imgSrc="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=2706&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="pasta"
-          />
-          <ImageRow
-            imgSrc="https://images.unsplash.com/photo-1580959375944-abd7e991f971?q=80&w=2205&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="beef dip"
-          />
+          <ImageRow imgSrc={food1} alt="lasagna" />
+          <ImageRow imgSrc={food2} alt="pasta" />
+          <ImageRow imgSrc={food3} alt="beef dip" />
         </div>
       </div>
     </div>
