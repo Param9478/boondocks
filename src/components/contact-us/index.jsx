@@ -1,9 +1,13 @@
+import { useEffect } from 'react'
 import Header from '../header'
 import GoogleMap from './locationMap'
 import ReservationSection from './reservationSection'
 import contactUs from '../../assets/contactUs.webp'
 
 export default function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Header

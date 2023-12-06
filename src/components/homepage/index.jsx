@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Header from '../header'
 import Component1 from './component-1'
 import Menu from './component-2'
@@ -7,6 +8,9 @@ import Component5 from './component-5'
 import homePageImage from '../../assets/homePageHeader.webp'
 
 export default function Homepage() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="mb-5">
       <Header

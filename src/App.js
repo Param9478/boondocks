@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/footer'
 import Homepage from './components/homepage'
@@ -6,6 +7,9 @@ import Contact from './components/contact-us'
 import OtherWebsite from './components/otherWebsite'
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Router>

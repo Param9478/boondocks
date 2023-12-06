@@ -1,9 +1,14 @@
+import { useEffect } from 'react'
+
 import Header from '../header'
 import OurStory from './ourStory'
 import OurTeam from './ourTeam'
 import aboutHeader from '../../assets/aboutHeader.webp'
 
 export default function AboutUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <Header
